@@ -756,6 +756,23 @@ First, we need to clarify the common goal of the two AI experts. We define this 
 from colorama import Fore
 from camel.societies import RolePlaying
 from camel.utils import print_text_animated
+from camel.models import ModelFactory
+from camel.types import ModelPlatformType
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+LLM_API_KEY = os.getenv("LLM_API_KEY")
+LLM_BASE_URL = os.getenv("LLM_BASE_URL")
+LLM_MODEL = os.getenv("LLM_MODEL")
+
+# Create model, using Qwen as an example, calling Alibaba Cloud Bailian platform API
+model = ModelFactory.create(
+    model_platform=ModelPlatformType.QWEN,
+    model_type=LLM_MODEL,
+    url=LLM_BASE_URL,
+    api_key=LLM_API_KEY
+)
 
 # Define collaboration task
 task_prompt = """
@@ -785,6 +802,7 @@ role_play_session = RolePlaying(
     assistant_role_name="Psychologist",
     user_role_name="Writer",
     task_prompt=task_prompt,
+    model=model,
     with_task_specify=False, # In this example, we directly use the given task_prompt
 )
 
