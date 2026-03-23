@@ -30,9 +30,7 @@
 ## 📚 快速开始
 
 ### 在线阅读
-**[🌐 点击这里开始在线阅读](https://datawhalechina.github.io/hello-agents/)** - 无需下载，随时随地学习
-
-**[📖 Cookbook](https://book.heterocat.com.cn/)**
+**[🌐 国外访问](https://datawhalechina.github.io/hello-agents/)** | **[🚀 国内加速](https://hello-agents.datawhale.cc)** - 无需下载，随时随地学习
 
 ### 本地阅读
 如果您希望在本地阅读或贡献内容，请参考下方的学习指南。

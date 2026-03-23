@@ -29,9 +29,7 @@
 
 ## 🌐 在线阅读
 
-**[🌐 点击这里开始在线阅读](https://datawhalechina.github.io/hello-agents/)**
-
-**[📖 Cookbook](https://book.heterocat.com.cn/)**
+**[🌐 国外访问](https://datawhalechina.github.io/hello-agents/)** | **[� 国内加速](https://hello-agents.datawhale.cc)**
 
 ### ✨ 你将收获什么？
 

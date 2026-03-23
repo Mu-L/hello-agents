@@ -25,9 +25,7 @@
 
 ## 🌐 Online Reading
 
-**[🌐 Click here to start online reading](https://datawhalechina.github.io/hello-agents/)**
-
-**[📖 Cookbook](https://book.heterocat.com.cn/)**
+**[🌐 International Access](https://datawhalechina.github.io/hello-agents/)** | **[🚀 Domestic Acceleration](https://hello-agents.datawhale.cc)**
 
 ### ✨ What Will You Gain?
 
